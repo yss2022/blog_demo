@@ -1,0 +1,42 @@
+.Layout {
+  .VPNav {
+    img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  .VPHome {
+    position: relative;
+    min-height: 937px;
+    background-image: url(./assets/bg3.jpg);
+    background-size: cover;
+
+    // // 自定义首页背景图
+    // &::before {
+    //   content: "";
+    //   position: absolute;
+    //   left: 0;
+    //   right: 0;
+    //   bottom: 0;
+    //   top: 0;
+    //   background-color: rgba(0, 0, 0, .2);
+    //   z-index: 2;
+    // }
+
+
+    .container {
+      .text {
+        color: rgb(175, 196, 196);
+        font-size: 45px;
+      }
+    }
+
+    .image-container {
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+}
